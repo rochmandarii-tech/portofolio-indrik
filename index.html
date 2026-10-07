@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Indri Rochmandari — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header id="portfolio-header" style="background-image:url('webcam-toy-photo102.jpg');">
+  <div class="header-overlay"></div>
+  <div class="header-inner">
+    <h1>Indri <span>Rochmandari</span></h1>
+    <p>Portfolio of Works & Projects</p>
+    <p class="header-tagline">Future Network Engineer | Learning networking to understand it, not just connect</p>
+  </div>
+</header>
+
+<!-- ===== SKILLS ===== -->
+<section id="skills">
+  <div class="section-title">
+    <p>What I Can Do</p>
+    <h2>My <span>Skills</span></h2>
+    <div class="title-line"></div>
+  </div>
+
+  <div class="skills-grid">
+    <div class="skills-card">
+      <div class="skills-card-icon">⚙</div>
+      <h3>Technical</h3>
+      <p>Hands-on experience with computer networking fundamentals, Cisco Packet Tracer simulations, basic HTML &amp; CSS, and troubleshooting network issues.</p>
+    </div>
+
+    <div class="skills-card">
+      <div class="skills-card-icon">🎨</div>
+      <h3>Creative</h3>
+      <p>Comfortable designing posters and social media content using Canva and Figma, along with basic video editing and presentation design.</p>
+    </div>
+
+    <div class="skills-card">
+      <div class="skills-card-icon">🌟</div>
+      <h3>Personal</h3>
+      <p>Strong communication and teamwork skills, creative thinking, and good time management when working on individual or group projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PORTFOLIO ===== -->
+<main id="portfolio">
+  <div class="section-title">
+    <p>My Works</p>
+    <h2>Porto<span>folio</span></h2>
+    <div class="title-line"></div>
+  </div>
+
+  <div class="portfolio-grid">
+    <div class="portfolio-item" onclick="openModal('modal1')">
+      <div class="portfolio-thumb">
+        <img src="P1.png" alt="Poster 1" onerror="this.src='https://via.placeholder.com/500x350.png?text=Poster+01'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Poster Design 01</h4>
+        <p>A poster design work with strong visual aesthetics and harmonious color composition.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal2')">
+      <div class="portfolio-thumb">
+        <img src="P2.png" alt="Poster 2" onerror="this.src='https://via.placeholder.com/500x350.png?text=Poster+02'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Poster Design 02</h4>
+        <p>An informative poster design with a clean layout and easy-to-read typography.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal3')">
+      <div class="portfolio-thumb">
+        <img src="feedpadus.png" alt="Feed Choir" onerror="this.src='https://via.placeholder.com/500x350.png?text=Choir+Feed'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Choir Social Media Feed</h4>
+        <p>Social media feed design for choir activities with an elegant and cohesive look.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal4')">
+      <div class="portfolio-thumb portfolio-thumb-web">
+        <div class="portfolio-web-inner">
+          <div style="font-size:2.8rem;margin-bottom:10px;">🌐</div>
+          <p style="font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--accent-strong);font-weight:700;">pakaiin.vercel.app</p>
+        </div>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Pakai.in Website</h4>
+        <p>Static Website Project.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal5')">
+      <div class="portfolio-thumb">
+        <img src="certificate 1.jpg" alt="Certificate 1" onerror="this.src='https://via.placeholder.com/500x350.png?text=Certificate+01'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Certificate 01</h4>
+        <p>Certificate of achievement earned from a training or competition.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal6')">
+      <div class="portfolio-thumb">
+        <img src="certificate 2.jpg" alt="Certificate 2" onerror="this.src='https://via.placeholder.com/500x350.png?text=Certificate+02'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Certificate 02</h4>
+        <p>Certificate of participation from a seminar or workshop.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal7')">
+      <div class="portfolio-thumb">
+        <img src="certificate 3.jpeg" alt="Certificate 3" onerror="this.src='https://via.placeholder.com/500x350.png?text=Certificate+03'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Certificate 03</h4>
+        <p>Certificate of completion from an organizational or school activity.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal8')">
+      <div class="portfolio-thumb">
+        <img src="certificate 4.jpg" alt="Certificate 4" onerror="this.src='https://via.placeholder.com/500x350.png?text=Certificate+04'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Certificate 04</h4>
+        <p>Certificate of recognition from an academic or extracurricular achievement.</p>
+      </div>
+    </div>
+
+    <div class="portfolio-item" onclick="openModal('modal9')">
+      <div class="portfolio-thumb">
+        <img src="certificate 5.jpg" alt="Certificate 5" onerror="this.src='https://via.placeholder.com/500x350.png?text=Certificate+05'"/>
+        <div class="portfolio-overlay"><span>View Work</span></div>
+      </div>
+      <div class="portfolio-info">
+        <h4>Certificate 05</h4>
+        <p>Certificate earned from an additional training, course, or competition.</p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- ===== MODALS ===== -->
+<div class="modal-bg" id="modal1" onclick="closeModalBg(event,'modal1')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal1')">✕</button>
+      <img class="modal-img" src="P1.png" alt="Poster 1" onerror="this.src='https://via.placeholder.com/700x500.png?text=Poster+01'"/>
+      <div class="modal-body">
+        <h3>Poster Design 01</h3>
+        <p>This poster was created to develop graphic design skills in conveying Civics material about democracy visually, attractively, and in an easy-to-understand way.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal2" onclick="closeModalBg(event,'modal2')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal2')">✕</button>
+      <img class="modal-img" src="P2.png" alt="Poster 2" onerror="this.src='https://via.placeholder.com/700x500.png?text=Poster+02'"/>
+      <div class="modal-body">
+        <h3>Poster Design 02</h3>
+        <p>This poster was created as a class assignment to visually communicate the habits of great Indonesian children, with an appealing design so the message can be well-received by all students.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal3" onclick="closeModalBg(event,'modal3')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal3')">✕</button>
+      <img class="modal-img" src="feedpadus.png" alt="Feed Choir" onerror="this.src='https://via.placeholder.com/700x500.png?text=Choir+Feed'"/>
+      <div class="modal-body">
+        <h3>Choir Social Media Feed</h3>
+        <p>This poster was created as an information and promotion medium for the choir extracurricular's leadership handover event on Instagram, with an attractive design to grab students' attention.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal4" onclick="closeModalBg(event,'modal4')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal4')">✕</button>
+      <div class="modal-web-header">
+        <div style="font-size:2.4rem;margin-bottom:10px;">🌐</div>
+        <p style="font-family:'Playfair Display',serif;font-size:1rem;color:var(--accent-strong);font-weight:700;letter-spacing:0.04em;">pakaiin.vercel.app</p>
+      </div>
+      <div class="modal-body">
+        <h3>Pakai.in Website</h3>
+        <p>Pakai.in is a group project created to fulfill a static website UI/UX assignment. The goal was to make it easier for users to find information about fashion and well-known brands.</p>
+        <div class="modal-web-actions">
+          <a href="https://pakaiin.vercel.app/" target="_blank" rel="noopener" class="modal-link">
+            <span>↗</span> Visit Website
+          </a>
+          <button class="modal-close-btn" onclick="closeModal('modal4')">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal5" onclick="closeModalBg(event,'modal5')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal5')">✕</button>
+      <img class="modal-img" src="certificate 1.jpg" alt="Certificate 1" onerror="this.src='https://via.placeholder.com/700x500.png?text=Certificate+01'"/>
+      <div class="modal-body">
+        <h3>Certificate 01</h3>
+        <p>Certificate of achievement earned from a training or competition.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal6" onclick="closeModalBg(event,'modal6')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal6')">✕</button>
+      <img class="modal-img" src="certificate 2.jpg" alt="Certificate 2" onerror="this.src='https://via.placeholder.com/700x500.png?text=Certificate+02'"/>
+      <div class="modal-body">
+        <h3>Certificate 02</h3>
+        <p>Certificate of participation from a seminar or workshop.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal7" onclick="closeModalBg(event,'modal7')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal7')">✕</button>
+      <img class="modal-img" src="certificate 3.jpeg" alt="Certificate 3" onerror="this.src='https://via.placeholder.com/700x500.png?text=Certificate+03'"/>
+      <div class="modal-body">
+        <h3>Certificate 03</h3>
+        <p>Certificate of completion from an organizational or school activity.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal8" onclick="closeModalBg(event,'modal8')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal8')">✕</button>
+      <img class="modal-img" src="certificate 4.jpg" alt="Certificate 4" onerror="this.src='https://via.placeholder.com/700x500.png?text=Certificate+04'"/>
+      <div class="modal-body">
+        <h3>Certificate 04</h3>
+        <p>Certificate of recognition from an academic or extracurricular achievement.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-bg" id="modal9" onclick="closeModalBg(event,'modal9')">
+  <div class="modal-card-wrap">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeModal('modal9')">✕</button>
+      <img class="modal-img" src="certificate 5.jpg" alt="Certificate 5" onerror="this.src='https://via.placeholder.com/700x500.png?text=Certificate+05'"/>
+      <div class="modal-body">
+        <h3>Certificate 05</h3>
+        <p>Certificate earned from an additional training, course, or competition.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer id="footer">
+  <div class="footer-content">
+    <p>Connect with me on social media</p>
+    <div class="social-links">
+      <a href="https://instagram.com/nrcdytihf" target="_blank" rel="noopener" class="social-link" title="Instagram">
+        <span>📸</span><span class="social-text">Instagram</span>
+      </a>
+      <a href="https://mail.google.com/mail/?view=cm&to=indrirochmandari11@gmail.com" target="_blank" rel="noopener" class="social-link" title="Email">
+        <span>📧</span><span class="social-text">Email</span>
+      </a>
+      <a href="https://wa.me/6288806116605" target="_blank" rel="noopener" class="social-link" title="WhatsApp">
+        <span>💬</span><span class="social-text">WhatsApp</span>
+      </a>
+      <a href="https://github.com" target="_blank" rel="noopener" class="social-link" title="GitHub">
+        <span>💻</span><span class="social-text">GitHub</span>
+      </a>
+    </div>
+    <p class="footer-credit">© 2026 Indri Rochmandari. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
